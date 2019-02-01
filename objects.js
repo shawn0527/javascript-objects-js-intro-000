@@ -8,8 +8,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 
 function removeFromPlaylist(playlist, artistName){
-  var Name=function log(artistName){
-  cosole.log(artistName)
-}
-delete playlist.Name
+  delete playlist.artistName
+  return playlist
 }
